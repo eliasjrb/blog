@@ -4,7 +4,7 @@ import logo from '../../../public/images/logo.svg'
 import { ActiveLink } from '../ActiveLink'
 import Link from 'next/link'
 
-export function Header(){
+export default function Header(){
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>

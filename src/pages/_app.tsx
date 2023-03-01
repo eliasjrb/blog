@@ -1,5 +1,5 @@
 import '../styles/global.scss';
-import { Header } from '../components/Header'
+import  Header from '../components/Header'
 
 export default function App({ Component, pageProps }) {
   return(
